@@ -9,6 +9,7 @@ linea1= file.readline()
 linea2= file.readline()
 linea3= file.readline()
 
+file.close()
 print("Lineas del archivo")
 print("Linea1:",linea1,"Linea2:",linea2,"linea3:",linea3)
 
