@@ -1,9 +1,10 @@
+#Abro el archivo para escribir en el
 file=open('mis_notas.txt',"w")
 
 file.write("Primera linea.\nSegunda linea.\nTercera linea.\n")
 
 file.close()
-
+#Abro el arcvhio para que el programa lo lea
 file=open('mis_notas.txt',"r")
 linea1= file.readline()
 linea2= file.readline()
